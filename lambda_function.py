@@ -59,7 +59,7 @@ def lambda_handler(event, context):
             }
     
     
-def publish_sns(phone_number,sender_id='NTTeast',message=""):
+def publish_sns(phone_number,sender_id='TEST',message=""):
     message_attributes = {
         'AWS.SNS.SMS.SenderID': {
             'DataType': 'String',
