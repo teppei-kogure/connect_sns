@@ -101,6 +101,6 @@ class PublishSNSError(Exception):
     """Failed to send to SNS"""
     pass
 
-class WrongPhoneNumberError(Exception):
-    """Phone number is not a mobile phone number"""
-    pass
+# class WrongPhoneNumberError(Exception):
+#     """Phone number is not a mobile phone number"""
+#     pass
